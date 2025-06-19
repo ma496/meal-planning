@@ -4,12 +4,6 @@
 
 This is a full-stack web application that provides a static weekly meal plan for a family of four. The app accommodates basic dietary restrictions (vegetarian, gluten-free), allows users to register and log in, and displays a personalized meal plan on a secure dashboard. The backend is a NestJS API with JWT authentication, and the frontend is a Next.js application.
 
-## Live Links
-
-*   **Live Dashboard URL (Vercel):** [To be deployed]
-*   **API Base URL (Heroku):** [To be deployed]
-*   **API Documentation (Swagger):** `[YOUR_HEROKU_URL]/api`
-
 ## Features
 
 *   User registration with name, email, password, and dietary preference.
@@ -37,7 +31,7 @@ To run this project locally, you will need to have Node.js and npm installed.
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/ma496/meal-planning.git
 cd meal-planning
 ```
 
@@ -92,9 +86,5 @@ The frontend will be running at `http://localhost:3000`.
 
 ## Access Credentials
 
-You can register a new user or use the following sample credentials for evaluation purposes once you have the application running locally.
-
 *   **Email:** `user@example.com`
 *   **Password:** `password123`
-
-*(Note: You must register this user first through the registration page before you can log in.)* 
